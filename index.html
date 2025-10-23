@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Derek Dhammaloka">
-    <meta name="description" content="Transforms all the lower case letters to uppercase and all the uppercase letters to lowercase.  If the character is not a letter, leave it as it is.">
+    <meta name="description"
+        content="Transforms all the lower case letters to uppercase and all the uppercase letters to lowercase.  If the character is not a letter, leave it as it is.">
     <title>Swapping Case</title>
     <link href="favicon.ico" rel="icon">
     <!-- Load Styles -->
-     <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
-     <link href="#" rel="stylesheet">
+    <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- Create Header -->
+    <header class="container-fluid text-center">
+        <h1>Swapping Case</h1>
+    </header>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <div class="mb-3 form-floating">
+                <input id="mytext" class="form-control" title="Enter text" placeholder="Enter text">
+                <label for="mytext">Text</label>
+            </div>
+
+            <div class="d-grid gap-2 d-flex justify-content-center">
+                <button type="reset" id="clearBtn" class="btn btn-warning">Clear</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Display Results -->
+    <div id="results" class="container-fluid"></div>
+
+    <!-- Load Scripts -->
+    <script src="libs/jquery/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

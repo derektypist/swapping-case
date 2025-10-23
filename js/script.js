@@ -11,10 +11,10 @@ function swapCase(str) {
     */
 
     let updatedStr = "";
-    for (let i=0;i<str.length;i++) {
-        if (str[i].charCodeAt(0) >=65 && str[i].charCodeAt(0) <= 90) {
+    for (let i = 0; i < str.length; i++) {
+        if (str[i].charCodeAt(0) >= 65 && str[i].charCodeAt(0) <= 90) {
             updatedStr += String.fromCharCode(str[i].charCodeAt(0) + 32);
-        } else if (str[i].charCodeAt(0) >=97 && str[i].charCodeAt(0) <= 122) {
+        } else if (str[i].charCodeAt(0) >= 97 && str[i].charCodeAt(0) <= 122) {
             updatedStr += String.fromCharCode(str[i].charCodeAt(0) - 32);
         } else {
             updatedStr += str[i];

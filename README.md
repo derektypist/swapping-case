@@ -25,6 +25,16 @@ Uses HTML5, CSS3, JavaScript, Bootstrap 5.3.2 and jQuery 3.7.1.
 
 In the terminal, enter the command `python3 -m http.server` to preview.
 
+**Validator Testing**
+
+- HTML
+
+    - No errors were found through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fderektypist.github.io%2Fswapping-case)
+
+- CSS
+
+    - No errors were found when passing through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fderektypist.github.io%2Fswapping-case%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
 ## Deployment
 
 On [GitHub Pages](https://derektypist.github.io/swapping-case) at the main branch.

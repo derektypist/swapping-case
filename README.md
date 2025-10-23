@@ -35,6 +35,10 @@ In the terminal, enter the command `python3 -m http.server` to preview.
 
     - No errors were found when passing through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fderektypist.github.io%2Fswapping-case%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+- Link Checker
+
+    - A report is available through the official [W3C Link Checker](https://validator.w3.org/checklink?uri=https%3A%2F%2Fderektypist.github.io%2Fswapping-case&hide_type=all&depth=&check=Check)
+
 ## Deployment
 
 On [GitHub Pages](https://derektypist.github.io/swapping-case) at the main branch.
